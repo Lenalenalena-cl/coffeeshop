@@ -1,9 +1,9 @@
 html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
 }
 
 * {
@@ -11,9 +11,9 @@ html, body {
 }
 
 ul {
-    list-style-type: none;
     padding: 0;
     margin: 0;
+    list-style-type: none;
 }
 
 a {
@@ -42,14 +42,14 @@ h3 {
 
 .nav-menu {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    padding: 1rem;
+    justify-content: space-between;
+    padding: 1.2rem;
+    background-color: #fff0ed;
+    width: 100%; 
     position: absolute; 
     top: 0;
     left: 0;
-    width: auto;
-    background-color: #fff0ed;
 }
 
 .logo-link {
@@ -57,7 +57,6 @@ h3 {
     align-items: center;
     text-transform: lowercase;
     color: #393939;
-    margin-right: 20px; 
 }
 
 .nav-menu-logo a:hover {
@@ -67,23 +66,25 @@ h3 {
 .nav-menu-pages {
     display: flex;
     align-items: center;
+    margin-left: auto; 
 }
 
 .nav-menu-list {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .nav-menu-item {
+    padding: 1rem; 
     text-transform: uppercase;
-    padding: 1rem;
 }
 
 .nav-menu-item a {
-    color: #393939;
     border-radius: 0.1rem;
     font-size: 1.25rem;
     padding: 0.1rem;
+    color: #393939;
 }
 
 .nav-menu-item a:hover {
@@ -101,23 +102,24 @@ h3 {
 }
 
 .main-set {
+    width: 100%;
+    height: calc(65vh - 65px); 
+    padding-right: 20rem;
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    width: 100%;
-    height: calc(65vh - 65px); 
     background-color: #fff0ed;
-    padding-right: 20rem;
+    margin-top: 10rem;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    align-self: flex-start;
     width: 40%;
     padding: 1rem;
     margin-top: 10rem;
     padding-left:5rem;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
 }
 
 .main-content * {
@@ -146,12 +148,22 @@ h3 {
     background: #5bacc3;
     color: white;
     font-family: sans-serif;
-    padding: 0.5rem;
+    padding: 0.9rem;
     position: relative;
     text-transform: uppercase;
     text-align: center;
-    height: 6 rem;
+    height: 4rem;
     width: 10rem;
+}
+
+.shop-tag:before {
+    width: 10rem;
+    bottom: 0.4rem;
+    right: 0.3rem;
+    content: "";
+    height: 100%;
+    position: absolute;
+    border: 0.125rem solid #393939;
 }
 
 .gray-background {
@@ -297,3 +309,70 @@ h3 {
 .footer-socialmedia a:hover {
     background-color: #5bacc3;
 }
+
+.we-are-different-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 0;
+    padding-left: 5rem;
+}
+
+.we-are-different {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.different-description {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 31.25rem;
+    min-width: 20rem;
+    margin: 1rem;
+}
+
+.different-description * {
+    margin: 0.8rem 0;
+}
+
+.we-are-different-pic {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.we-are-different-can {
+    min-width: 25rem;
+    max-width: 25rem;
+    background-image: url("../assets/images/coldbrewbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem 0 2rem;
+}
+
+.we-are-different-can-pic-box {
+    display: flex;
+    border: 0.35rem solid #5bacc3;
+    padding: 1.9rem;
+    min-width: 25.5rem;
+    max-width: 35rem;
+    height: 27rem;
+    position: relative;
+    right: 1.6rem;
+    bottom: 1.5rem;
+}
+
+.we-are-different-can-pic {
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 27%;
+}
+

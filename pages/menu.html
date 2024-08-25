@@ -8,19 +8,19 @@
         rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/logos/coffee-beans-logo.svg">
     <title>Coffee Shop - Menu</title>
-    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="/css/menu.css">
 </head>
 
 <body>
     <header class="pink-background">
         <nav class="nav-menu">
             <div class="logo-link">
-                <h1> <a href="index.html"><img class="logo" src="/assets/Logos/coffee-beans-logo-and-footer.svg"
+                <h1> <a href="/index.html"><img class="logo" src="/assets/Logos/coffee-beans-logo-and-footer.svg"
                             alt="coffee bean logo">Nitro</a></h1>
             </div>
             <div class="nav-menu-pages">
                 <ul class="nav-menu-list">
-                    <li class="nav-menu-item"><a href="index.html">ABOUT</a></li>
+                    <li class="nav-menu-item"><a href="/index.html">ABOUT</a></li>
                     <li class="nav-menu-item"><a href="/pages/menu.html">MENU</a></li>
                     <li class="nav-menu-item"><a href="/pages/menu.html">SHOP NOW</a></li>
                 </ul>
@@ -34,8 +34,11 @@
             </div>
             <div class="menu-options">
                 <ul class="menu-list">
+                    <li class="vertical-blue-line"></li>
                     <li><a class="menu-link" href="#hot-drinks">HOT DRINKS</a></li>
+                    <li class="vertical-blue-line"></li>
                     <li><a class="menu-link" href="#cold-drinks">COLD DRINKS</a></li>
+                    <li class="vertical-blue-line"></li>
                     <li><a class="menu-link" href="#pastries">PASTERIES</a></li>
                 </ul>
             </div>
@@ -46,8 +49,8 @@
 
         </header>
         <main>
-            <section class="hot-drinks">
-                <h2 class="category-drink">Hot Drinks</h2>
+            <section id="hot-drinks" class="hot-drinks">
+                <h2  class="category-drink">Hot Drinks</h2>
                 <h3 class="item-name">In-house Brew</h3>
                 <p class="item-description">Our in-house medium roast is a classic balance between sweet vanilla, nutty
                     hazelnut, and a smooth low acidity to bring everything together.</p>
@@ -60,7 +63,7 @@
                 <p class="item-price">$4.99</p>
             </section>
 
-            <section class="cold-drinks">
+            <section id="cold-drinks" class="cold-drinks">
                 <h2 class="category-drink">Cold Drinks</h2>
                 <h3 class="item-name">Cold Brew</h3>
                 <p class="item-description">Our bright and delicious coffee blend, brewed over ice to give you a cold
@@ -73,7 +76,7 @@
                 <p class="item-price">$6.99</p>
             </section>
 
-            <section class="hot-drinks">
+            <section id="pastries" class="hot-drinks">
                 <h2 class="category-drink">Pastries</h2>
                 <h3 class="item-name">Bacon Oatmeal Raisin Cookie</h3>
                 <p class="item-description">An infused bacon, sugar, and egg mixture is folded into a perfect blend of
