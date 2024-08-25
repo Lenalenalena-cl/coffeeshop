@@ -4,46 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../css/menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/logos/coffee-beans-logo.svg">
     <title>Coffee Shop - Menu</title>
+    <link rel="stylesheet" href="./menu.html">
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="../index.html" class="logo-link">
-            <img class="coffee-icon" src="../assets/Logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
-            <header>
-                <h1><span class="title">nitro</span></h1>
-            </header>
-        </a>
-
-            <ul>
-                <li><a href="../index.html">ABOUT</a></li>
-                <li><a href="../pages/menu.html">MENU</a></li>
-                <li><a href="../pages/menu.html" class="shop-now">SHOP NOW</a></li>
-            </ul>
-
-    </div>
-
-    <main>
-        <section>
-            <div class="menu-container">
-                <h2 class="menu">MENU</h2>
+    <header class="pink-background">
+        <nav class="nav-menu">
+            <div class="logo-link">
+                <h1> <a href="index.html"><img class="logo" src="/assets/Logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">Nitro</a></h1>
             </div>
-            <ul class="section">
-                <div>
-                    <li class="sub-nav">HOT DRINKS</li>
-                    <li class="sub-nav">COLD DRINKS</li>
-                    <li class="sub-nav">PASTRIES</li>
-                </div>
-            </ul>
-        </section>
-
-        <div>
-            <section class="hot-drinks">
-                <h2 class="category-drink">Hot Drinks</h2>
+            <div class="nav-menu-pages">
+                <ul class="nav-menu-list">
+                    <li class="nav-menu-item"><a href="index.html">ABOUT</a></li>
+                    <li class="nav-menu-item"><a href="/pages/menu.html">MENU</a></li>
+                    <li class="nav-menu-item"><a href="/pages/menu.html">SHOP NOW</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <nav class="menu">
+            <div class="menu-container">
+                <div class="menu-border"></div>
+                <h1 class="menu-name">Menu</h1>
+            </div>
+            <div class="menu-options">
+                <ul class="menu-list">
+                    <li><a class="menulink" href="#hot-drinks">HOT DRINKS</a></li>
+                    <li><a class="menulink" href="#cold-drinks">COLD DRINKS</a></li>
+                    <li><a class="menulink" href="#pastries">PASTERIES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+    
+    
+    </header>
+    <main>
+        <section class="hot-drinks">
+            <h2 class="category-drink">Hot Drinks</h2>
                 <h3 class="item-name">In-house Brew</h3>
                 <p class="item-description">Our in-house medium roast is a classic balance between sweet vanilla, nutty
                     hazelnut, and a smooth low acidity to bring everything together.</p>
@@ -80,8 +82,7 @@
                 <p class="item-description">Tart and sweet, this classic blueberry and lemon combination comes with an
                     earthy twist.</p>
                 <p class="item-price">$2.50</p>
-            </section>
-        </div>
+        </section>
     </main>
 
 </body>

@@ -4,88 +4,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/logos/coffee-beans-logo.svg">
     <title>Coffee Shop - Home</title>
-    
-    <link rel="stylesheet" href="css/landing.css">
+    <link rel="stylesheet" href="/css/landing.css">
 </head>
 
 <body>
-    <header>
-        <nav class="pink-background">
-            <a href="/index.html" class="logo-link">
-                <img class="coffee-icon" src="/assets/Logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">
-            </a>
-            <a href="/index.html" class="title logo-link">nitro</a>
-            <ul>
-                <a href="/index.html">ABOUT</a>
-                <a href="/pages/menu.html">MENU</a>
-                <a class="special" href="/pages/menu.html">SHOP NOW</a>
-            </ul>
+    <header class="pink-background">
+        <nav class="nav-menu">
+            <div class="logo-link">
+                <h1> <a href="index.html"><img class="logo" src="/assets/Logos/coffee-beans-logo-and-footer.svg" alt="coffee bean logo">Nitro</a></h1>
+            </div>
+            <div class="nav-menu-pages">
+                <ul class="nav-menu-list">
+                    <li class="nav-menu-item"><a href="index.html">ABOUT</a></li>
+                    <li class="nav-menu-item"><a href="./pages/menu.html">MENU</a></li>
+                    <li class="nav-menu-item"><a href="./pages/menu.html">SHOP NOW</a></li>
+                </ul>
+            </div>
         </nav>
 
-        <div class="main-set">
+        <nav class="main-set">
             <div class="main-content">
-                <h1 class="head">Nitro Coffee</h1>
-                <p class="main-p">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from
-                    certain Coffea species.</p>
-                <a class="shop-tag" href="/pages/menu.html">SHOP NOW</a>
+                <h2 class="main-head">Nitro Coffee</h2>
+                <p class="main-p">Coffee is a brewed drink prepared from roasted coffee beans, the seed of berries from certain Coffee species.</p>
+                <a class="shop-tag" href="./pages/menu.html">Shop Now</a>
             </div>
-
-            <img src="assets/Images/coffeebeans-hero.png" alt="coffee bag">
-        </div>
-
+            <div class="coffee-bag">
+                <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag">
+            </div>
+        </nav>
     </header>
-    <section class="mid-section">
-        <h2 class="head-product">Our Products</h2>
-        <div>
-            <div class="product-box">
-                <img class="product-pic" src="assets/Images/coffeebeans.png" alt="Coffee Beans">
-                <h3 class="products">Coffee Beans</h3>
-                <p class="price">$18.99</p>
-            </div>
-            <div class="product-box">
-                <img class="product-pic" src="assets/Images/coldbrew.png" alt="Cold Brew">
-                <h3 class="products">Cold Brew</h3>
-                <p class="price">$4.99</p>
-            </div>
-            <div class="product-box">
-                <img class="product-pic" src="assets/Images/inhousebrew.png" alt="In-house Brew">
-                <h3 class="products">In-house Brew</h3>
-                <p class="price">$2.99</p>
-            </div>
-            <a class="shop-tag-mid" href="/pages/menu.html">VIEW ALL</a>
-        </div>
-    </section>
+    <main>
+        <section class="gray-background">
+            <section class="mid-section">
+                <h2 class="head-product">Our Products</h2>
+                <div class="product-box ">
+                    <div class="products-list">
+                        <div class="products-pic">
+                            <img src="./assets/images/coffeebeans.png" alt="coffee beans">
+                        </div>
+                        <div class="products-contents">
+                            <div class="products-details">
+                                <h3 class="products-items">Coffee Beans</h3>
+                                <p class="products-numbers">Pack of 3</p>
+                            </div>
+                            <div class="price">
+                                <p>$19</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-list">
+                        <div class="products-pic">
+                            <img src="./assets/images/coldbrew.png" alt="cold brew">
+                        </div>
+                        <div class="products-contents">
+                            <div class="products-details">
+                                <h3 class="products-items">Cold Brew</h3>
+                                <p class="products-numbers">1 can</p>
+                            </div>
+                            <div class="price">
+                                <p>$5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-list">
+                        <div class="products-pic">
+                            <img src="./assets/images/inhousebrew.png" alt="in-house brew">
+                        </div>
+                        <div class="products-contents">
+                            <div class="products-details">
+                                <h3 class="products-items">In-house brew</h3>
+                                <p class="products-numbers">1 cup</p>
+                            </div>
+                            <div class="price">
+                                <p>$3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="shop-tag-mid shop-tag" href="./pages/menu.html">View All</a>
+            </section>
+        </section>
 
-    <div class="promo-section">
-        <p class="promo">Get 20% off your first order with code:<strong> FirstNitro</strong></p>
-    </div>
+        <section class="promo-section">
+            <p class="promo">Get 20% off your first order with code:<span class="promo-code"> FirstNitro</span></p>
+        </section>
+    </main>
 
-    <footer class="footer">
-        <div>
-            <h3 class="products">Address</h3>
-            <address>
+    <footer class="pink-background">
+        <section class="footer">
+            <div>
+                <h3 class="footer-address">Address</h3>
                 <p>503 Broadway Penthouse</p>
                 <p>New York</p>
-            </address>
-        </div>
-        <div>
-            <h3 class="products">Hours</h3>
-            <p><strong>Monday - Friday:</strong> 9am - 7pm</p>
-            <p><strong>Saturday - Sunday:</strong> 10am - 5pm</p>
-        </div>
-        <div>
-            <h3 class="products">Social</h3>
-            <a href="https://www.facebook.com"> <img class="social-media" src="assets/Logos/Facebook-Icon.svg"
-                    alt="Facebook"></a>
-            <a href="https://www.yelp.com"> <img class="social-media" src="assets/Logos/Yelp-Icon.svg" alt="Yelp"></a>
-            <a href="https://instagram.com"><img class="social-media" src="assets/Logos/Instagram-Icon.svg"
-                    alt="Instagram"></a>
-        </div>
+            </div>
+            <div>
+                <h3>Hours</h3>
+                <p><span class="footer-hours">Monday - Friday:</span> 9am - 7pm</p>
+                <p><span class="footer-hours">Saturday - Sunday:</span> 10am - 5pm</p>
+            </div>
+            <div>
+                <h3>Social</h3>
+                <div class="footer-socialmedia">
+                    <a href="https://facebook.com" target="_blank"><img class="logo" src="assets/Logos/Facebook-Icon.svg" alt="facebook icon"></a>
+                    <a href="https://yelp.com" target="_blank"><img class="logo" src="assets/Logos/Yelp-Icon.svg" alt="yelp icon"></a>
+                    <a href="https://instagram.com" target="_blank"><img class="logo" src="assets/Logos/Instagram-Icon.svg" alt="instagram icon"></a>
+                </div>
+        </section>
     </footer>
+
+
 </body>
 
 </html>
