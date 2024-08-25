@@ -1,16 +1,14 @@
-/* Navbar styling */
 .navbar, .pink-background {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Align items to the left */
+    justify-content: flex-start; 
     background-color: #FFF0ED;
     padding: 10px 20px;
 }
 
-/* Styling for the logo and wordmark */
 .logo-link {
     display: flex;
-    align-items: center; /* Align logo and wordmark vertically */
+    align-items: center; 
     text-decoration: none;
     color: inherit;
 }
@@ -24,16 +22,15 @@
 .title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 60px; /* Original size */
+    font-size: 60px; 
     color: black;
     text-decoration: none;
 }
 
-/* Navigation menu styling */
 .nav-menu, .pink-background ul {
     display: flex;
-    gap: 40px; /* Space between nav items */
-    margin-left: 40px; /* Ensure the menu is directly to the right of the logo and wordmark */
+    gap: 40px; 
+    margin-left: 40px; 
 }
 
 .nav-menu a, .pink-background ul a {
@@ -44,24 +41,20 @@
     color: black;
 }
 
-/* Style the "Shop Now" link in the navigation menu */
 .pink-background ul .special {
-    color: #5BACC3; /* Set the text color to #5BACC3 */
-    font-weight: 600; /* Optionally make the text slightly bolder */
-    text-decoration: none; /* Remove any underline */
+    color: #5BACC3; 
+    font-weight: 600; 
+    text-decoration: none; 
 }
 
-/* Optional: Add a hover effect */
 .pink-background ul .special:hover {
-    color: #4a97ac; /* Slightly darker shade for hover effect */
+    color: #4a97ac; 
 }
 
-/* Special link styling */
 .special {
     color: #5BACC3;
 }
 
-/* Main content styling */
 .main-set {
     background-color: #FFF0ED;
     display: flex;
@@ -176,7 +169,6 @@
     justify-content: center;
 }
 
-/* Footer styling */
 .footer {
     background-color: #FFF0ED;
     display: flex;
@@ -184,30 +176,26 @@
     padding: 20px;
 }
 
-/* Styling for the first line of each section */
 .footer h3 {
     font-family: 'Open Sans', sans-serif;
-    font-style: normal; /* Ensure the text is not italic */
-    font-size: 36px; /* Twice the size of the rest of the footer text */
-    color: black; /* Ensure consistent text color */
-    margin-bottom: 10px; /* Space below the header */
+    font-style: normal; 
+    font-size: 36px; 
+    color: black;
+    margin-bottom: 10px; 
 }
 
-/* Styling for the rest of the footer text */
 .footer p, .footer address {
     font-family: 'Open Sans', sans-serif;
-    font-style: normal; /* Ensure the text is not italic */
-    font-size: 18px; /* Regular size for footer text */
-    color: black; /* Ensure consistent text color */
+    font-style: normal; 
+    font-size: 18px;
+    color: black; 
 }
 
-/* Remove underline from links and inherit color */
 .footer a {
     text-decoration: none; 
     color: inherit; 
 }
 
-/* Optional hover effect */
 .footer a:hover {
-    color: #5BACC3; /* Change color on hover */
+    color: #5BACC3; 
 }
