@@ -166,7 +166,15 @@ h3 {
     position: absolute;
     border: 0.125rem solid #393939;
 }
-
+.shop-tag:hover{
+    background-color: #468a9c;
+    border: 0.125rem solid #393939;
+    padding-top: 0.8rem;
+    transition: all 0.1s ease;
+}
+.shop-tag:hover::before{
+    display: none;
+}
 .gray-background {
     background-color: #f7f7f7;
 }
@@ -256,9 +264,33 @@ h3 {
     background-color: #393939;
     color: white;
     text-align: center;
-    -webkit-animation: moveBackground 2.5s ease alternate infinite;
-    animation: moveBackground 2.5s ease alternate infinite;
+    -webkit-animation: backgroundAnimation 2.5s ease alternate infinite;
+    animation: backgroundAnimation 2.5s ease alternate infinite;
 }
+
+@-webkit-keyframes backgroundAnimation {
+    0% {
+      background-color: #393939;
+    }
+    50% {
+      background-color: #5bacc3;
+    }
+    100% {
+      background-color: #468a9c;
+    }
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background-color: #393939;
+    }
+    50% {
+      background-color: #5bacc3;
+    }
+    100% {
+      background-color: #468a9c;
+    }
+  }
 
 .promo-code {
     font-weight: 700;
@@ -355,6 +387,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 15rem;
 }
 
 .we-are-different-can-pic-box {
@@ -377,3 +410,25 @@ h3 {
     justify-content: center;
 }
 
+.we-are-different-can-pic:hover {
+    -webkit-animation: rotateImg 2s linear infinite;
+    animation: rotateImg 2s linear infinite;
+}
+
+@-webkit-keyframes rotateImg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateImg {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
