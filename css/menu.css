@@ -1,0 +1,190 @@
+.coffee-icon {
+    width: 50px;
+}
+
+/* Styling for the logo and wordmark */
+.logo-link {
+    display: flex;
+    align-items: center; /* Align logo and wordmark vertically */
+    text-decoration: none;
+    color: inherit;
+}
+
+.coffee-icon {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 60px; /* Original size */
+    color: black;
+    text-decoration: none;
+}
+
+/* Navigation menu styling */
+.nav-menu, .pink-background ul {
+    display: flex;
+    gap: 40px; /* Space between nav items */
+    margin-left: 40px; /* Ensure the menu is directly to the right of the logo and wordmark */
+}
+
+
+.navbar {
+    display: flex;
+    background-color: #FFF0ED;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.navbar header h1 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-style: regular;
+    font-weight: 300;
+    font-size: 60px;
+    padding-right: 40px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex; 
+    gap: 20px; 
+    font-family: 'Open Sans', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 45px;
+    font-size: 21px;
+    margin-left: 45px;
+}
+
+.navbar  ul li a {
+    color: black;
+    text-decoration: none; 
+    margin-left: 15px;
+}
+
+.navbar header h1 {
+    text-decoration: none;
+}
+
+.shop-now {
+    color: #5BACC3;
+}
+
+.coffee-circle {
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-container {
+    background-image: url('/assets/Images/coffee-circle.jpg');
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    width: 300px;
+    height: 200px;
+    background-color: #393939;
+    color: #FFF;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.section {
+    background-color: #393939;
+    list-style-type: none;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    display: table;
+    margin: 0;
+    padding-left: 40%;
+    font-size: 21px;
+}
+
+.sub-nav {
+    border: 4px;
+    border-left: 4px solid #5BACC3;
+    padding-left: 20px;
+    display: table-cell;
+    padding-right: 20px;
+}
+
+.section li {
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.category-drink {
+    font-family: 'Open Sans', sans-serif;
+    font-style: regular;
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.item-name {
+    font-family: 'Open Sans', sans-serif;
+    font-style: light;
+    font-weight: 300;
+    font-size: 33px;
+    text-align: center;
+}
+
+.item-price {
+    font-family: 'Open Sans', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5BACC3;
+    text-align: center;
+    margin: 0;
+}
+
+.item-description {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.hot-drinks {
+    background-color: #FFF0ED;
+    padding-bottom: 20px;
+}
+
+.cold-drinks {
+    background-color: #F7F7F7;
+    padding-bottom: 20px;
+}
